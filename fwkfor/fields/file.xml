@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config type="module" version="1.5.0">
+	<name>File single upload</name>
+	<fields count="3">
+		<field1>
+			<maxlength>255</maxlength>
+			<size>20</size>
+			<type>file</type>
+		</field1>
+		<field2>
+			<type>checkbox</type>
+			<label>Secret</label>
+			<format>none</format>
+			<cat>parameter</cat>
+			<width>30px</width>
+		</field2>
+		<field3>
+			<label>Directory</label>
+			<format>none</format>
+			<cat>parameter</cat>
+		</field3>
+	</fields>
+	<help>Upload a single file. If the 'secret' box is ticked, the uploaded file will be prefixed with a random secret, useful if you want to hide the location of the file. The 'directory' can be left blank.</help>
+</config>

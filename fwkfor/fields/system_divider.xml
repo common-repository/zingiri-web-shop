@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config type="system" version="1.5.0">
+	<name>Divider</name>
+	<fields count="1">
+		<field1>
+			<name>divider</name>
+			<label>Title</label>
+			<type>divider</type>
+			<format>none</format>
+			<cat>parameter</cat>
+		</field1>
+	</fields>
+	<help>Dividers are used to create tabbed forms. Insert a divider anywhere in your form to create a new tab. Don't forget the divider at the top of your form.</help>
+</config>
